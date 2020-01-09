@@ -1,6 +1,6 @@
 version="3.0"
 month=$(date -d "-1 month" +%-m)
-offset=11
+offset=1
 mileston=$((month+offset))
 
 git clone https://github.com/NaomiProject/Naomi.git
