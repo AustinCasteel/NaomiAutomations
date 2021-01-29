@@ -1,7 +1,7 @@
-version="3.0"
+version="3.1"
 month=$(date +%-m)
-offset=24
-milestone=$((month+offset))
+offset=1
+milestone=$((month-offset))
 
 git clone https://github.com/NaomiProject/Naomi.git
 cd Naomi
